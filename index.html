@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ali Dehrab — Calisthenics Coach &amp; Brand Marketer · Kuwait</title>
+<meta name="description" content="Ali Dehrab — Coach Dehrab. NASM-certified calisthenics coach, hybrid athlete and brand marketer based in Kuwait.">
+<meta name="theme-color" content="#0a0a0b">
+<meta property="og:title" content="Ali Dehrab — Coach Dehrab">
+<meta property="og:description" content="Calisthenics coach, hybrid athlete and brand marketer based in Kuwait.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta property="og:type" content="website">
+<script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("anim")</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Saira+Stencil+One&family=Noto+Kufi+Arabic:wght@700;900&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/cut-coach.webp">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__brand">COACH <em>DEHRAB</em></div>
+  <div class="loader__count"><span id="loaderNum">0</span><i>%</i></div>
+  <div class="loader__bar"><span id="loaderBar"></span></div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+<!-- Nav -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__logo" aria-label="Ali Dehrab — home">COACH <em>DEHRAB</em></a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#story">Story</a>
+    <a href="#coach">Coaching</a>
+    <a href="#work">Work</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#credentials">Credentials</a>
+  </nav>
+  <a href="#contact" class="btn btn--sm nav__cta" data-magnetic>Let's talk</a>
+  <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav aria-label="Mobile">
+    <a href="#about"><i>01</i>About</a>
+    <a href="#story"><i>02</i>Story</a>
+    <a href="#coach"><i>03</i>Coaching</a>
+    <a href="#work"><i>04</i>Work</a>
+    <a href="#gallery"><i>05</i>Gallery</a>
+    <a href="#credentials"><i>06</i>Credentials</a>
+    <a href="#contact"><i>07</i>Contact</a>
+  </nav>
+  <p class="menu__foot">Kuwait · @dehrab01</p>
+</div>
+
+<nav class="rail" id="rail" aria-label="Sections"></nav>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="hero__ar" aria-hidden="true" lang="ar">علي دهراب</div>
+
+  <div class="hero__word hero__word--back" aria-hidden="true"><span>DEHRAB</span></div>
+  <div class="hero__figure">
+    <img class="hero__cut" src="assets/img/cut-coach.webp" width="660" height="1274" alt="Ali Dehrab, arms crossed, wearing a calisthenics coach t-shirt">
+  </div>
+  <div class="hero__word hero__word--front" aria-hidden="true"><span>DEHRAB</span></div>
+
+  <div class="hero__top">
+    <p class="eyebrow hero__eyebrow"><span class="dot"></span>Kuwait · Available for coaching &amp; collaborations</p>
+    <h1 class="hero__title"><span class="hero__first">Ali</span><span class="sr-only"> Dehrab</span></h1>
+  </div>
+
+  <div class="hero__bottom">
+    <div class="hero__lede">
+      <p class="hero__roles" aria-label="Calisthenics coach, hybrid athlete, brand marketer">
+        <span class="hero__roles-static">I'm a</span>
+        <span class="hero__rotator" id="rotator">
+          <span>Calisthenics Coach</span>
+          <span>Hybrid Athlete</span>
+          <span>Brand Marketer</span>
+          <span>PADI Diver</span>
+          <span>Martial Artist</span>
+        </span>
+      </p>
+      <p class="hero__sub">Built on basics. Driven by discipline. I coach people to move better — and help brands do the same.</p>
+    </div>
+    <div class="hero__side">
+      <ul class="hero__meta">
+        <li><b>NASM</b><span>Certified personal trainer</span></li>
+        <li><b>PADI</b><span>Advanced diver</span></li>
+        <li><b>BBA</b><span>Marketing · AUM</span></li>
+      </ul>
+      <div class="hero__actions">
+        <a class="btn" href="#coach" data-magnetic>Train with me <span class="arr">→</span></a>
+        <a class="btn btn--ghost" href="#work" data-magnetic>See the work</a>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="hero__scroll" aria-label="Scroll to about"><span></span>Scroll</a>
+</section>
+
+<!-- Marquee -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Calisthenics</span><b>✦</b><span class="o">Marketing</span><b>✦</b><span>Diving</span><b>✦</b><span class="o">Martial Arts</span><b>✦</b><span>Climbing</span><b>✦</b><span class="o">Content</span><b>✦</b><span>Discipline</span><b>✦</b>
+    <span>Calisthenics</span><b>✦</b><span class="o">Marketing</span><b>✦</b><span>Diving</span><b>✦</b><span class="o">Martial Arts</span><b>✦</b><span>Climbing</span><b>✦</b><span class="o">Content</span><b>✦</b><span>Discipline</span><b>✦</b>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal><span class="num">01</span>About</p>
+    <h2 class="display split">One man.<br><em>Two arenas.</em></h2>
+
+    <div class="about__intro">
+      <p class="lead" data-reveal>In Kuwait most people know me as <strong>Coach Dehrab</strong>. Before I was a coach I was a kid who simply could not stay away from sport — a diver at four, a judoka at eleven, a fighter at eighteen.</p>
+      <p data-reveal>Today I split my days between two things I take equally seriously: teaching people to control their own bodyweight, and building brands as a marketer. Different arenas, same rule — nothing can be rushed. Every skill is built one progression at a time.</p>
+    </div>
+
+    <div class="duo">
+      <article class="duo__card duo__card--coach" data-reveal data-cursor="Coach">
+        <div class="duo__media"><img src="assets/img/cut-flex.webp" alt="Ali flexing both arms" loading="lazy" width="683" height="477"></div>
+        <div class="duo__body">
+          <p class="mono">Arena 01 — The bars</p>
+          <h3>The Coach</h3>
+          <p>NASM-certified personal trainer and calisthenics coach. One-on-one sessions, group and kids' classes, and digital programs on LVL UP, Tamreen and TrueCoach.</p>
+          <ul class="tags"><li>Calisthenics</li><li>Strength</li><li>Nutrition</li><li>Kids' classes</li></ul>
+          <a class="link" href="#coach">How I coach <span class="arr">→</span></a>
+        </div>
+      </article>
+      <article class="duo__card duo__card--pro" data-reveal data-cursor="Marketer">
+        <div class="duo__media"><img src="assets/img/cut-suit.webp" alt="Ali Dehrab in a navy suit and tie" loading="lazy" width="799" height="790"></div>
+        <div class="duo__body">
+          <p class="mono">Arena 02 — The brand</p>
+          <h3>The Marketer</h3>
+          <p>Marketing Officer at Arabian Beverage Company. BBA in Marketing from AUM, now pursuing a Master in Management at Maastricht School of Management.</p>
+          <ul class="tags"><li>Brand</li><li>Digital</li><li>Content strategy</li><li>AI marketing</li></ul>
+          <a class="link" href="#work">The résumé <span class="arr">→</span></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="stats">
+      <div class="stat" data-reveal><b data-count="11.6" data-dec="1" data-suffix="K">11.6K</b><span>Instagram followers<br>@dehrab01</span></div>
+      <div class="stat" data-reveal><b id="statCerts" data-count="60" data-suffix="+">60+</b><span>Certificates, courses<br>&amp; workshops</span></div>
+      <div class="stat" data-reveal><b id="statRoles" data-count="18">18</b><span>Roles across marketing,<br>events &amp; stage</span></div>
+      <div class="stat" data-reveal><b data-count="4">4</b><span>Countries worked in —<br>Kuwait, KSA, UAE, Qatar</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MANIFESTO ============ -->
+<section class="manifesto" aria-label="Coaching philosophy">
+  <div class="wrap">
+    <p class="manifesto__text" id="manifesto">Nothing in calisthenics can be rushed. Every skill is built <em>one progression at a time</em> — and that is exactly what I love to teach.</p>
+    <p class="mono manifesto__by"><span></span>Ali Dehrab, on why he coaches</p>
+  </div>
+</section>
+
+<!-- ============ STORY (horizontal) ============ -->
+<section class="story" id="story">
+  <div class="story__pin">
+    <div class="story__head wrap">
+      <p class="eyebrow"><span class="num">02</span>Where it started</p>
+      <h2 class="display display--md">From the diving board <em>to the bars.</em></h2>
+      <p class="story__hint mono"><span class="arr">→</span> Keep scrolling</p>
+    </div>
+    <div class="story__viewport">
+      <div class="story__track" id="storyTrack"></div>
+    </div>
+    <div class="story__rail" aria-hidden="true"><span id="storyRail"></span></div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section skills" id="skills">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow" data-reveal><span class="num">03</span>Skills I teach</p>
+        <h2 class="display display--md split">Four skills.<br><em>Built step by step.</em></h2>
+      </div>
+      <p class="head__intro" data-reveal>Each one is broken into progressions you can actually follow. Hover or tap a skill to see it.</p>
+    </div>
+    <div class="skills__grid">
+      <div class="skills__list" id="skillsList" role="tablist" aria-label="Calisthenics skills"></div>
+      <div class="skills__stage" data-reveal>
+        <div class="skills__frame" id="skillsFrame"></div>
+        <p class="skills__text" id="skillsText"></p>
+      </div>
+    </div>
+    <p class="skills__note" data-reveal>Nothing is rushed. <em>Every skill is built one progression at a time.</em></p>
+  </div>
+</section>
+
+<!-- ============ COACHING ============ -->
+<section class="section coach" id="coach">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow" data-reveal><span class="num">04</span>How I coach</p>
+        <h2 class="display split">Clear. Hands-on.<br><em>Consistent.</em></h2>
+      </div>
+      <p class="head__intro" data-reveal>A well-studied plan, direct guidance and continuous follow-up — so anyone who trains with me knows exactly what to do next.</p>
+    </div>
+
+    <div class="method">
+      <article class="method__step" data-reveal>
+        <span class="method__num">01</span>
+        <h3>A studied plan</h3>
+        <p>Weights, calisthenics, nutrition and supplements in one program — clear, organized and easy to follow.</p>
+      </article>
+      <article class="method__step" data-reveal>
+        <span class="method__num">02</span>
+        <h3>Direct guidance</h3>
+        <p>Hands-on spotting and progressions that match your level, so you always know what to do next.</p>
+      </article>
+      <article class="method__step" data-reveal>
+        <span class="method__num">03</span>
+        <h3>Continuous follow-up</h3>
+        <p>I track your progress, keep you consistent — and hand you a completion certificate when you've earned it.</p>
+      </article>
+    </div>
+
+    <div class="coach__split">
+      <div class="coach__photos">
+        <figure class="ph ph--a" data-parallax="-8"><img src="assets/img/coach-spot3.webp" alt="Ali spotting a client's handstand in a park" loading="lazy"><figcaption>Park session</figcaption></figure>
+        <figure class="ph ph--b" data-parallax="10"><img src="assets/img/coach-kids.webp" alt="Ali coaching a child through a handstand" loading="lazy"><figcaption>Kids' calisthenics</figcaption></figure>
+        <figure class="ph ph--c" data-parallax="-4"><img src="assets/img/coach-spot2.webp" alt="Ali supporting a client in a handstand on parallettes" loading="lazy"><figcaption>Handstand progressions</figcaption></figure>
+      </div>
+      <div class="coach__copy">
+        <blockquote class="quote" data-reveal>
+          <p>The goal is never just a body.</p>
+          <p><em>The goal is a lifestyle.</em></p>
+        </blockquote>
+        <p data-reveal>Whether you train in a gym, a park or at home — professional or complete beginner — there is a program that fits your level.</p>
+        <ul class="where" data-reveal>
+          <li><b>Gym</b></li><li><b>Park</b></li><li><b>Home</b></li>
+        </ul>
+        <div class="kids" data-reveal>
+          <p class="mono">Kids' classes</p>
+          <p>Fun, strength and discipline all in one. Watching a young person hold their first handstand is one of the best parts of my job.</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sub" data-reveal>Train with me</h3>
+    <div class="programs">
+      <a class="program" href="https://apps.apple.com/kw/app/lvlup-trainee/id6763311221" target="_blank" rel="noopener" data-reveal data-cursor="Open">
+        <div class="program__img"><img src="assets/img/prog-lvlup.webp" alt="LVL UP app promotional artwork featuring Coach Dehrab" loading="lazy"></div>
+        <div class="program__body">
+          <p class="mono">App Store</p>
+          <h4>LVL UP</h4>
+          <p>Beginner Calisthenics — an 8-week, beginner-friendly program to build strength, mobility and bodyweight fundamentals.</p>
+          <span class="program__meta">KWD 15 <i>↗</i></span>
+        </div>
+      </a>
+      <a class="program" href="https://wa.me/96569020103?text=Hi%20Coach%2C%20I%27d%20like%20to%20know%20more%20about%20your%20Tamreen%20programs." target="_blank" rel="noopener" data-reveal data-cursor="Ask">
+        <div class="program__img"><img src="assets/img/prog-tamreen.webp" alt="Tamreen calisthenics programs with Ali Dehrab" loading="lazy"></div>
+        <div class="program__body">
+          <p class="mono">Programs</p>
+          <h4>Tamreen</h4>
+          <p>Calisthenics programs for home, the park or anywhere — matched to your level, with ongoing follow-up.</p>
+          <span class="program__meta">Ask on WhatsApp <i>↗</i></span>
+        </div>
+      </a>
+      <a class="program" href="https://wa.me/96569020103?text=Hi%20Coach%2C%20I%27m%20interested%20in%201%3A1%20coaching." target="_blank" rel="noopener" data-reveal data-cursor="Ask">
+        <div class="program__img"><img src="assets/img/prog-truecoach.webp" alt="TrueCoach — Coach Ali artwork" loading="lazy"></div>
+        <div class="program__body">
+          <p class="mono">1:1 follow-up</p>
+          <h4>TrueCoach</h4>
+          <p>Personal coaching: fitness and weight training, calisthenics skills, nutrition and supplements — managed day to day.</p>
+          <span class="program__meta">Ask on WhatsApp <i>↗</i></span>
+        </div>
+      </a>
+    </div>
+
+    <div class="codes" data-reveal>
+      <p class="mono codes__label">Partner codes</p>
+      <button class="code" data-copy="TUNALID" data-cursor="Copy"><span>Tuning · healthy meals</span><b>TUNALID</b><i>Copy</i></button>
+      <button class="code" data-copy="AD01" data-cursor="Copy"><span>Health House Nutrition</span><b>AD01</b><i>Copy</i></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="section work" id="work">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow" data-reveal><span class="num">05</span>The résumé</p>
+        <h2 class="display split">Marketer<br><em>by trade.</em></h2>
+      </div>
+      <p class="head__intro" data-reveal>Campaigns, book fairs in three countries, stages and shop floors. Seventeen roles led to the one I hold today.</p>
+    </div>
+
+    <article class="now" data-reveal>
+      <div class="now__left">
+        <p class="mono"><span class="dot"></span>Now · since Aug 2026</p>
+        <h3>Marketing Officer</h3>
+        <p class="now__org">Arabian Beverage Company (ABC) · Kuwait</p>
+      </div>
+      <ul class="now__list">
+        <li>Campaigns across digital and offline channels</li>
+        <li>Content and promotional material</li>
+        <li>Product launches with the sales team</li>
+        <li>Social media and brand communication</li>
+        <li>AI-powered content workflows</li>
+        <li>Performance analysis and insights</li>
+      </ul>
+    </article>
+
+    <div class="filters" id="workFilters" role="tablist" aria-label="Filter roles" data-reveal></div>
+    <div class="rows" id="workRows"></div>
+
+    <button class="more" id="workMore" hidden></button>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery" id="gallery">
+  <div class="wrap gallery__head">
+    <div>
+      <p class="eyebrow" data-reveal><span class="num">06</span>The poster wall</p>
+      <h2 class="display split">Content with<br><em>intent.</em></h2>
+    </div>
+    <div class="gallery__side" data-reveal>
+      <p class="gallery__note">Campaign-style visuals from <a href="https://www.instagram.com/dehrab01/" target="_blank" rel="noopener">@dehrab01</a>. Drag to explore, tap to open.</p>
+      <div class="gallery__ctrl">
+        <button id="galPrev" aria-label="Previous images">←</button>
+        <span class="mono" id="galCount">01 / 12</span>
+        <button id="galNext" aria-label="Next images">→</button>
+      </div>
+    </div>
+  </div>
+  <div class="gallery__strip" id="galleryStrip" data-cursor="Drag" data-lenis-prevent-touch></div>
+</section>
+
+<!-- ============ BEYOND ============ -->
+<section class="section beyond" id="beyond">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow" data-reveal><span class="num">07</span>Beyond the bars</p>
+        <h2 class="display split">Sea, wall, road,<br><em>stage.</em></h2>
+      </div>
+      <p class="head__intro" data-reveal>An athlete first — diver, fighter, climber, runner. Off the field: performer, volunteer and donor.</p>
+    </div>
+
+    <div class="bento">
+      <article class="tile tile--img tile--tall" data-reveal>
+        <img src="assets/img/bg-scuba.webp" alt="Ali in scuba gear on a boat" loading="lazy">
+        <div class="tile__cap"><p class="mono">Sea</p><h3>PADI Advanced Diver</h3><p>Diving at four planted it: a love of the sea in all its forms.</p></div>
+      </article>
+      <article class="tile tile--img" data-reveal>
+        <img src="assets/img/bg-climbing.webp" alt="Ali on an indoor climbing wall" loading="lazy">
+        <div class="tile__cap"><p class="mono">Wall</p><h3>Indoor climbing</h3></div>
+      </article>
+      <article class="tile tile--red" data-reveal>
+        <p class="mono">Stage</p>
+        <h3>Actor, zombie, model.</h3>
+        <p>Two years as HorrorCon Kuwait's zombie, an operetta in Doha, a Harry Potter-themed play, and brand shoots for Celestia Worldwide.</p>
+      </article>
+      <article class="tile tile--img" data-reveal>
+        <img src="assets/img/bg-marathon.webp" alt="Ali guiding runners at the 5 km marker of the Gulf Bank 642 Marathon" loading="lazy">
+        <div class="tile__cap"><p class="mono">Road</p><h3>Gulf Bank 642 Marathon</h3><p>Organizer and volunteer, guiding runners on the 5 km route.</p></div>
+      </article>
+      <article class="tile tile--img" data-reveal>
+        <img src="assets/img/bg-kajukenbo.webp" alt="Ali in a black gi holding a Kajukenbo certificate" loading="lazy">
+        <div class="tile__cap"><p class="mono">Mat</p><h3>Kajukenbo</h3><p>Author of “Mindful Martial Art: From Hawaii to Kuwait”.</p></div>
+      </article>
+      <article class="tile tile--text" data-reveal>
+        <p class="mono">Giving back</p>
+        <h3>Community first.</h3>
+        <ul class="give">
+          <li><b>Kuwait Red Crescent Society</b><span>Volunteer &amp; member since 2022</span></li>
+          <li><b>Civil Defense</b><span>Emergency-response trainee · “Ready” program</span></li>
+          <li><b>Blood donor</b><span>Since 2019</span></li>
+          <li><b>Registered organ donor</b><span>Kuwait Transplant Society</span></li>
+          <li><b>AIESEC · AUM · LOYAC</b><span>Cleanups, Iftar campaigns, youth events</span></li>
+        </ul>
+      </article>
+      <article class="tile tile--img tile--wide" data-reveal>
+        <img src="assets/img/bg-medals.webp" alt="Ali holding a stack of race medals" loading="lazy">
+        <div class="tile__cap"><p class="mono">Finish lines</p><h3>Race medals &amp; running</h3></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CREDENTIALS ============ -->
+<section class="section creds" id="credentials">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow" data-reveal><span class="num">08</span>Education &amp; credentials</p>
+        <h2 class="display split">Learning<br><em>never stops.</em></h2>
+      </div>
+      <p class="head__intro" data-reveal>A marketing degree, a Master’s in progress, and more than sixty certificates across fitness, marketing, safety and tech.</p>
+    </div>
+
+    <h3 class="sub" data-reveal>Education</h3>
+    <div class="edu">
+      <article class="edu__item" data-reveal>
+        <span class="mono">2026 — 2028</span>
+        <h4>Master in Management (MM)</h4>
+        <p>Maastricht School of Management, Kuwait — part of Maastricht University's School of Business and Economics. Includes a study visit to the Netherlands.</p>
+      </article>
+      <article class="edu__item" data-reveal>
+        <span class="mono">2023 — 2026</span>
+        <h4>BBA, Marketing</h4>
+        <p>American University of the Middle East (AUM). Marketing Club and Art Club member.</p>
+      </article>
+      <article class="edu__item" data-reveal>
+        <span class="mono">2020 — 2023</span>
+        <h4>Diploma, Business Administration</h4>
+        <p>American College of the Middle East (ACM). Marketing Club Leader · Honor List, Feb 2023.</p>
+      </article>
+    </div>
+
+    <div class="langs" data-reveal>
+      <div><b>Arabic</b><span>Native</span></div>
+      <div><b>English</b><span>Full professional</span></div>
+      <div><b>Kuwaiti Sign Language</b><span>Level 1 · learning</span></div>
+    </div>
+
+    <h3 class="sub" data-reveal>Certificates &amp; courses</h3>
+    <div class="creds__shots" data-reveal>
+      <button class="shot" data-zoom="cert-nasm"><img src="assets/img/cert-nasm.webp" alt="NASM Personal Fitness Trainer certificate" loading="lazy"><span>NASM · Personal Fitness Trainer</span></button>
+      <button class="shot" data-zoom="cert-nutrition"><img src="assets/img/cert-nutrition.webp" alt="NASM nutrition and weight management certificate" loading="lazy"><span>NASM · Nutrition &amp; Weight Management</span></button>
+      <button class="shot" data-zoom="cert-ai"><img src="assets/img/cert-ai.webp" alt="AI in Sports Training attendance certificate" loading="lazy"><span>AI in Sports Training</span></button>
+      <button class="shot" data-zoom="bg-padi"><img src="assets/img/bg-padi.webp" alt="PADI Advanced Diver" loading="lazy"><span>PADI · Advanced Diver</span></button>
+      <button class="shot" data-zoom="cert-adobe"><img src="assets/img/cert-adobe.webp" alt="Adobe Marketing Specialist awardee" loading="lazy"><span>Adobe · Marketing Specialist</span></button>
+    </div>
+
+    <div class="filters" id="certFilters" role="tablist" aria-label="Filter certificates" data-reveal></div>
+    <div class="certs" id="certList"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact__bg" aria-hidden="true"><img src="assets/img/cut-smoke.webp" alt="" loading="lazy"></div>
+  <div class="wrap">
+    <p class="eyebrow" data-reveal><span class="num">09</span>Contact</p>
+    <h2 class="contact__title">Let's <em id="contactWord">train.</em></h2>
+
+    <div class="contact__grid">
+      <form class="wa" id="waForm" data-reveal>
+        <p class="mono">Start a WhatsApp message</p>
+        <div class="wa__chips" role="radiogroup" aria-label="What is this about?">
+          <label><input type="radio" name="topic" value="1:1 coaching" checked><span>1:1 coaching</span></label>
+          <label><input type="radio" name="topic" value="kids' classes"><span>Kids' classes</span></label>
+          <label><input type="radio" name="topic" value="an online program"><span>Online program</span></label>
+          <label><input type="radio" name="topic" value="a marketing collaboration"><span>Marketing / collab</span></label>
+        </div>
+        <label class="wa__field"><span>Your name</span><input type="text" id="waName" autocomplete="name" placeholder="Name"></label>
+        <label class="wa__field"><span>Anything I should know?</span><textarea id="waMsg" rows="3" placeholder="Goals, experience, timing…"></textarea></label>
+        <button class="btn btn--block" type="submit" data-magnetic>Open WhatsApp <span class="arr">→</span></button>
+        <p class="wa__fine">Nothing is stored — this just opens WhatsApp with your message ready to send.</p>
+      </form>
+
+      <ul class="contact__links" data-reveal>
+        <li><a href="https://wa.me/96569020103" target="_blank" rel="noopener"><span>WhatsApp</span><b>+965 6902 0103</b><i>↗</i></a></li>
+        <li><a href="https://www.instagram.com/dehrab01/" target="_blank" rel="noopener"><span>Instagram</span><b>@dehrab01</b><i>↗</i></a></li>
+        <li><a href="https://www.linkedin.com/in/ali-ahmed-dehrab-3349a7360" target="_blank" rel="noopener"><span>LinkedIn</span><b>Ali Ahmed Dehrab</b><i>↗</i></a></li>
+        <li><a href="mailto:ali.dehrab.01@gmail.com"><span>Email</span><b>ali.dehrab.01@gmail.com</b><i>↗</i></a></li>
+        <li><a href="https://apps.apple.com/kw/app/lvlup-trainee/id6763311221" target="_blank" rel="noopener"><span>LVL UP app</span><b>Train on your phone</b><i>↗</i></a></li>
+        <li><a href="https://linktr.ee/Dehrab01" target="_blank" rel="noopener"><span>Linktree</span><b>All links</b><i>↗</i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="wrap footer__top">
+      <div class="footer__brand">
+        <span class="footer__logo">COACH <em>DEHRAB</em></span>
+        <p>“Breathing growth, moving with purpose, and living from the heart.”</p>
+      </div>
+      <nav class="footer__col" aria-label="Footer">
+        <p class="mono">Explore</p>
+        <a href="#about">About</a><a href="#story">Story</a><a href="#coach">Coaching</a><a href="#work">Work</a><a href="#credentials">Credentials</a>
+      </nav>
+      <div class="footer__col">
+        <p class="mono">Connect</p>
+        <a href="https://www.instagram.com/dehrab01/" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/96569020103" target="_blank" rel="noopener">WhatsApp</a><a href="https://www.linkedin.com/in/ali-ahmed-dehrab-3349a7360" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:ali.dehrab.01@gmail.com">Email</a>
+      </div>
+      <a href="#hero" class="footer__up" data-magnetic aria-label="Back to top">↑</a>
+    </div>
+    <div class="footer__word" aria-hidden="true">ALI DEHRAB</div>
+    <div class="wrap footer__base">
+      <span>© <span id="year">2026</span> Ali Dehrab · Kuwait</span>
+      <span>Calisthenics coach · Brand marketer</span>
+    </div>
+  </footer>
+</section>
+
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+  <button class="lightbox__close" aria-label="Close">Close ✕</button>
+  <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous">←</button>
+  <img id="lightboxImg" alt="">
+  <button class="lightbox__nav lightbox__nav--next" aria-label="Next">→</button>
+  <p class="lightbox__cap mono" id="lightboxCap"></p>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
